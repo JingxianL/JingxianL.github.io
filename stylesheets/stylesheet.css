@@ -1,14 +1,11 @@
-header{
-  margin: 100px;
+html {
+  margin-top: 5px;
 }
-h1{
-  /*text-align: center;*/
 
-}
 body {
-  margin: 200px;
+  margin: 50px;
   padding: 0;
-  background:  #F7EED6;
+  background:  #E0FFFF;
   color: #eaeaea;
   font: 16px;
   line-height: 1.5;
@@ -20,7 +17,9 @@ body {
 .container {
   width: 90%;
   max-width: 600px;
-  margin: 0 auto;
+  margin: -10px auto;
+  margin-top: 5%;
+
 }
 
 section {
@@ -48,6 +47,8 @@ header {
   border-bottom: 1px dashed #b5e853;
   padding: 20px 0;
   margin: 0 0 40px 0;
+  /*background-color: #f6f6f6;*/
+  border-radius:20px;
 }
 
 header h1 {
@@ -56,12 +57,15 @@ header h1 {
   margin: 0 0 0 -40px;
   font-weight: bold;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: #b5e853;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
-               0 0 5px rgba(181, 232, 83, 0.1),
-               0 0 10px rgba(181, 232, 83, 0.1);
+  color: #003399;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 1.0),
+               0 0 5px rgba(162, 181, 205, 0.9),
+               0 0 10px rgba(162, 181, 205, 0.9);
   letter-spacing: -1px;
   -webkit-font-smoothing: antialiased;
+  border-radius: 10px;
+  
+  /*width: 275px;  */
 }
 
 header h1:before {
@@ -74,7 +78,10 @@ header h2 {
   font-weight: 300;
   color: #666;
 }
-
+#downloads {
+  width: 150%;
+  margin-left: -5%;
+}
 #downloads .btn {
   display: inline-block;
   text-align: center;
@@ -95,7 +102,7 @@ section img {
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: #b5e853;
+  color: #0000FF;
   letter-spacing: -0.03em;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
@@ -156,19 +163,19 @@ blockquote {
   border-left: 1px dotted #666;
 }
 
-pre {
+/*pre {
   background: rgba(0, 0, 0, 0.9);
   border: 1px solid rgba(255, 255, 255, 0.15);
   padding: 10px;
   font-size: 14px;
   color: #b5e853;
-  border-radius: 2px;
+  border-radius: 20px;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   text-wrap: normal;
   overflow: auto;
   overflow-y: hidden;
-}
+}*/
 
 table {
   width: 100%;
@@ -197,7 +204,7 @@ hr {
 
 .btn {
   display: inline-block;
-  background: -webkit-linear-gradient(top, rgba(40, 40, 40, 0.3), rgba(35, 35, 35, 0.3) 50%, rgba(10, 10, 10, 0.3) 50%, rgba(0, 0, 0, 0.3));
+  background: -webkit-linear-gradient(top, rgba(234, 234, 234, 0.3), rgba(35, 35, 35, 0.3) 50%, rgba(10, 10, 10, 0.3) 50%, rgba(0, 0, 0, 0.3));
   padding: 8px 18px;
   border-radius: 50px;
   border: 2px solid rgba(0, 0, 0, 0.7);
